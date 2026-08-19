@@ -1,0 +1,366 @@
+﻿{
+  "Info": {
+    "Class": "clsDbImexSpec",
+    "Description": "Import/Export Specification from MSysIMEXSpecs"
+  },
+  "Items": {
+    "DateDelim": "/",
+    "DateFourDigitYear": true,
+    "DateLeadingZeros": false,
+    "DateOrder": 0,
+    "DecimalPoint": ".",
+    "FieldSeparator": ";",
+    "FileType": 850,
+    "SpecName": "FORMAT BLITZ IMP",
+    "SpecType": 1,
+    "StartRow": 0,
+    "TextDelim": "\"",
+    "TimeDelim": ":",
+    "Columns": {
+      "Imp_Cle_Debiteur": {
+        "Attributes": 0,
+        "DataType": 4,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 6,
+        "Width": 5
+      },
+      "Imp_Cle_Impaye": {
+        "Attributes": 0,
+        "DataType": 4,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 1,
+        "Width": 5
+      },
+      "Imp_Cle_RIB": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 91,
+        "Width": 1
+      },
+      "Imp_CMC7_Interbancaire": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 154,
+        "Width": 15
+      },
+      "Imp_CMC7_Interne": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 169,
+        "Width": 15
+      },
+      "Imp_CMC7_Montant": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 184,
+        "Width": 13
+      },
+      "Imp_CMC7_NumCheque": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 144,
+        "Width": 10
+      },
+      "Imp_Code_Banque": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 66,
+        "Width": 7
+      },
+      "Imp_Code_Creancier": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 249,
+        "Width": 8
+      },
+      "Imp_Code_Etablissement": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 274,
+        "Width": 9
+      },
+      "Imp_Code_Guichet": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 73,
+        "Width": 7
+      },
+      "Imp_CodePos": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 327,
+        "Width": 8
+      },
+      "Imp_Commune": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 300,
+        "Width": 27
+      },
+      "Imp_Controle_Identite": {
+        "Attributes": 0,
+        "DataType": 1,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 197,
+        "Width": 2
+      },
+      "Imp_Creancier": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 217,
+        "Width": 19
+      },
+      "Imp_Date_Banque": {
+        "Attributes": 0,
+        "DataType": 8,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 131,
+        "Width": 13
+      },
+      "Imp_Date_Cheque": {
+        "Attributes": 0,
+        "DataType": 8,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 63,
+        "Width": 3
+      },
+      "Imp_Date_Commande": {
+        "Attributes": 0,
+        "DataType": 8,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 205,
+        "Width": 3
+      },
+      "Imp_Date_Facture": {
+        "Attributes": 0,
+        "DataType": 8,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 201,
+        "Width": 3
+      },
+      "Imp_Date_Livraison": {
+        "Attributes": 0,
+        "DataType": 8,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 209,
+        "Width": 3
+      },
+      "Imp_Date_Reglement_prevue": {
+        "Attributes": 0,
+        "DataType": 8,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 214,
+        "Width": 3
+      },
+      "Imp_Date_Saisie": {
+        "Attributes": 0,
+        "DataType": 8,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 12,
+        "Width": 13
+      },
+      "Imp_Domiciliation": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 123,
+        "Width": 8
+      },
+      "Imp_Frais_Recuperable": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 58,
+        "Width": 5
+      },
+      "Imp_Libelle_Facture": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 200,
+        "Width": 1
+      },
+      "Imp_Livreur": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 212,
+        "Width": 1
+      },
+      "Imp_Montant_TTC": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 39,
+        "Width": 7
+      },
+      "Imp_Motif_Impaye": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 34,
+        "Width": 5
+      },
+      "Imp_Nom_Banque": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 92,
+        "Width": 31
+      },
+      "Imp_Nom_Etablissement": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 257,
+        "Width": 17
+      },
+      "Imp_Num_Bon_Livraison": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 208,
+        "Width": 1
+      },
+      "Imp_Num_Commande": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 204,
+        "Width": 1
+      },
+      "Imp_Num_Compte": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 80,
+        "Width": 11
+      },
+      "Imp_Num_Facture": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 199,
+        "Width": 1
+      },
+      "Imp_Pays": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 335,
+        "Width": 10
+      },
+      "Imp_Refer_Impaye": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 11,
+        "Width": 1
+      },
+      "Imp_Registre_Creancier": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 248,
+        "Width": 1
+      },
+      "Imp_Regle": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 46,
+        "Width": 5
+      },
+      "Imp_Reste_Du": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 51,
+        "Width": 7
+      },
+      "Imp_Siren_Creancier": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 236,
+        "Width": 12
+      },
+      "Imp_Site_Etablissement": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 283,
+        "Width": 17
+      },
+      "Imp_Type_Reglement_prevu": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 213,
+        "Width": 1
+      },
+      "Imp_Type_Traitement": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 25,
+        "Width": 9
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "FRAIS_GRILLE",
+    "Connect": ";DATABASE=rel:TGREF.accdb",
+    "SourceTableName": "FRAIS_GRILLE",
+    "Attributes": 1073741824,
+    "PrimaryKey": "[Fra_Grille]"
+  }
+}

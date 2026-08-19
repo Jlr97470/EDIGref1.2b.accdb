@@ -1,0 +1,126 @@
+﻿{
+  "Info": {
+    "Class": "clsDbImexSpec",
+    "Description": "Import/Export Specification from MSysIMEXSpecs"
+  },
+  "Items": {
+    "DateDelim": "/",
+    "DateFourDigitYear": true,
+    "DateLeadingZeros": false,
+    "DateOrder": 0,
+    "DecimalPoint": ",",
+    "FieldSeparator": ";",
+    "FileType": 850,
+    "SpecName": "FORMAT BLITZ ADR",
+    "SpecType": 1,
+    "StartRow": 0,
+    "TextDelim": "\"",
+    "TimeDelim": ":",
+    "Columns": {
+      "Adr_Adr1": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 15,
+        "Width": 30
+      },
+      "Adr_Adr2": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 45,
+        "Width": 1
+      },
+      "Adr_Adr3": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 46,
+        "Width": 1
+      },
+      "Adr_Adr4": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 47,
+        "Width": 30
+      },
+      "Adr_Cle_Debiteur": {
+        "Attributes": 0,
+        "DataType": 4,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 1,
+        "Width": 7
+      },
+      "Adr_Cle_Etab_Debiteur": {
+        "Attributes": 0,
+        "DataType": 4,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 8,
+        "Width": 7
+      },
+      "Adr_CodePos": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 77,
+        "Width": 6
+      },
+      "Adr_Commune": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 83,
+        "Width": 18
+      },
+      "Adr_Email": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 109,
+        "Width": 1
+      },
+      "Adr_Fax": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 108,
+        "Width": 1
+      },
+      "Adr_Pays": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 101,
+        "Width": 1
+      },
+      "Adr_Tel": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 107,
+        "Width": 1
+      },
+      "Adr_Type_Adresse": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 102,
+        "Width": 5
+      }
+    }
+  }
+}

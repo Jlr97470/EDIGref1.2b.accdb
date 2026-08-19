@@ -1,0 +1,13 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "RELANCE",
+    "Connect": ";DATABASE=rel:TGREF.accdb",
+    "SourceTableName": "RELANCE",
+    "Attributes": 1073741824,
+    "PrimaryKey": "[Rel_Code_Action], [Rel_N°]"
+  }
+}

@@ -1,0 +1,110 @@
+﻿{
+  "Info": {
+    "Class": "clsDbImexSpec",
+    "Description": "Import/Export Specification from MSysIMEXSpecs"
+  },
+  "Items": {
+    "DateDelim": "/",
+    "DateFourDigitYear": true,
+    "DateLeadingZeros": false,
+    "DateOrder": 0,
+    "DecimalPoint": ",",
+    "FieldSeparator": ";",
+    "FileType": 850,
+    "SpecName": "FORMAT BLITZ INT",
+    "SpecType": 1,
+    "StartRow": 0,
+    "TextDelim": "",
+    "TimeDelim": ":",
+    "Columns": {
+      "Int_Cle_Etab_Debiteur": {
+        "Attributes": 0,
+        "DataType": 4,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 1,
+        "Width": 2
+      },
+      "Int_Cle_Interlocuteur": {
+        "Attributes": 0,
+        "DataType": 4,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 3,
+        "Width": 2
+      },
+      "Int_Email": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 13,
+        "Width": 10
+      },
+      "Int_Employeur": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 9,
+        "Width": 1
+      },
+      "Int_Fax": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 11,
+        "Width": 1
+      },
+      "Int_Fonction": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 8,
+        "Width": 1
+      },
+      "Int_Mobile": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 12,
+        "Width": 1
+      },
+      "Int_Nom": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 7,
+        "Width": 1
+      },
+      "Int_Politesse": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 5,
+        "Width": 1
+      },
+      "Int_Prenom": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 6,
+        "Width": 1
+      },
+      "Int_Tel": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 10,
+        "Width": 1
+      }
+    }
+  }
+}

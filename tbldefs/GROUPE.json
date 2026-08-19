@@ -1,0 +1,13 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "GROUPE",
+    "Connect": ";DATABASE=rel:TGREF.accdb",
+    "SourceTableName": "GROUPE",
+    "Attributes": 1073741824,
+    "PrimaryKey": "[Grp_Code]"
+  }
+}

@@ -1,0 +1,13 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "CODE_ACTION",
+    "Connect": ";DATABASE=rel:TGREF.accdb",
+    "SourceTableName": "CODE_ACTION",
+    "Attributes": 1073741824,
+    "PrimaryKey": "[CA_Code]"
+  }
+}

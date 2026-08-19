@@ -1,0 +1,28 @@
+﻿{
+  "Info": {
+    "Class": "clsDbForm",
+    "Description": "FrmFicheClientListe Print Settings"
+  },
+  "Items": {
+    "Printer": {
+      "Orientation": "Portrait",
+      "PaperSize": "A4"
+    },
+    "Margins": {
+      "LeftMargin": 0.984,
+      "TopMargin": 0.984,
+      "RightMargin": 0.984,
+      "BotMargin": 0.984,
+      "DataOnly": true,
+      "Width": 3.7292,
+      "Height": 0.1875,
+      "DefaultSize": true,
+      "Columns": 1,
+      "ColumnSpacing": 0.25,
+      "RowSpacing": 0,
+      "ItemLayout": "Horizontal Columns",
+      "FastPrint": 1,
+      "Datasheet": 1
+    }
+  }
+}

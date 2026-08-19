@@ -1,0 +1,13 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "TMP_IMP_XLS",
+    "Connect": ";DATABASE=rel:TEDIGREF.accdb",
+    "SourceTableName": "TMP_IMP_XLS",
+    "Attributes": 1073741824,
+    "PrimaryKey": "[TIX_Ref Client], [TIX_N°]"
+  }
+}

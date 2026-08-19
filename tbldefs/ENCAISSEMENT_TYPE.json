@@ -1,0 +1,13 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "ENCAISSEMENT_TYPE",
+    "Connect": ";DATABASE=rel:TGREF.accdb",
+    "SourceTableName": "ENCAISSEMENT_TYPE",
+    "Attributes": 1073741824,
+    "PrimaryKey": "[ETy_Code]"
+  }
+}

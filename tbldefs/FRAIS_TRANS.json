@@ -1,0 +1,12 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "FRAIS_TRANS",
+    "Connect": ";DATABASE=rel:TGREF.accdb",
+    "SourceTableName": "FRAIS_TRANS",
+    "Attributes": 1073741824
+  }
+}

@@ -1,0 +1,12 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "PARAMETRE_GREF",
+    "Connect": ";DATABASE=rel:TGREF.accdb",
+    "SourceTableName": "PARAMETRE_GREF",
+    "Attributes": 1073741824
+  }
+}

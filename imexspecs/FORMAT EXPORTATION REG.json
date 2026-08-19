@@ -1,0 +1,46 @@
+﻿{
+  "Info": {
+    "Class": "clsDbImexSpec",
+    "Description": "Import/Export Specification from MSysIMEXSpecs"
+  },
+  "Items": {
+    "DateDelim": "/",
+    "DateFourDigitYear": true,
+    "DateLeadingZeros": true,
+    "DateOrder": 0,
+    "DecimalPoint": ".",
+    "FieldSeparator": ";",
+    "FileType": 850,
+    "SpecName": "FORMAT EXPORTATION REG",
+    "SpecType": 2,
+    "StartRow": 0,
+    "TextDelim": "",
+    "TimeDelim": ":",
+    "Columns": {
+      "Clé impayé": {
+        "Attributes": 0,
+        "DataType": 4,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 1,
+        "Width": 10
+      },
+      "Date de virement": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 11,
+        "Width": 10
+      },
+      "Montant": {
+        "Attributes": 0,
+        "DataType": 7,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 21,
+        "Width": 17
+      }
+    }
+  }
+}

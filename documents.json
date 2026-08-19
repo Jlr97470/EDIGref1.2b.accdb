@@ -1,0 +1,15 @@
+﻿{
+  "Info": {
+    "Class": "clsDbDocument",
+    "Description": "Database Documents Properties (DAO)"
+  },
+  "Items": {
+    "Databases": {
+      "SummaryInfo": {
+        "Author": "TSO",
+        "Company": "T.S.O.",
+        "Title": "NewGref97"
+      }
+    }
+  }
+}

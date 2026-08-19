@@ -1,0 +1,261 @@
+﻿Version =20
+VersionRequired =20
+Begin Form
+    PopUp = NotDefault
+    Modal = NotDefault
+    RecordSelectors = NotDefault
+    MaxButton = NotDefault
+    MinButton = NotDefault
+    ControlBox = NotDefault
+    ShortcutMenu = NotDefault
+    AutoCenter = NotDefault
+    NavigationButtons = NotDefault
+    AllowDeletions = NotDefault
+    CloseButton = NotDefault
+    DividingLines = NotDefault
+    AllowAdditions = NotDefault
+    ScrollBars =0
+    ViewsAllowed =1
+    RecordLocks =2
+    BorderStyle =1
+    GridX =5
+    GridY =5
+    Width =3405
+    ItemSuffix =7
+    Left =5595
+    Top =2325
+    Right =9360
+    Bottom =4680
+    RecSrcDt = Begin
+        0x6bbfa228fa8fe140
+    End
+    Caption ="Patientez"
+    AllowDatasheetView =0
+    Begin
+        Begin TextBox
+            FELineBreak = NotDefault
+            SpecialEffect =2
+            OldBorderStyle =0
+            Width =1701
+            LabelX =-1701
+            FontName ="Tahoma"
+            AsianLineBreak =255
+        End
+        Begin UnboundObjectFrame
+            SpecialEffect =2
+            OldBorderStyle =1
+            Width =4536
+            Height =2835
+        End
+        Begin CustomControl
+            SpecialEffect =2
+            Width =4536
+            Height =2835
+        End
+        Begin Section
+            Height =1710
+            BackColor =12632256
+            Name ="Détail"
+            Begin
+                Begin Label
+                    BackStyle =0
+                    OverlapFlags =93
+                    TextAlign =2
+                    Left =120
+                    Top =705
+                    Width =3150
+                    Height =330
+                    FontSize =12
+                    FontWeight =700
+                    ForeColor =16711680
+                    Name ="EtiPatientez"
+                    Caption ="Traitement en cours ..."
+                    FontName ="System"
+                End
+                Begin CustomControl
+                    Enabled = NotDefault
+                    TabStop = NotDefault
+                    SizeMode =1
+                    SpecialEffect =0
+                    OverlapFlags =85
+                    Left =105
+                    Top =1335
+                    Width =3195
+                    Height =165
+                    AutoActivate =1
+                    Name ="PgrPatientez"
+                    OleData = Begin
+                        0x00120000d0cf11e0a1b11ae1000000000000000000000000000000003e000300 ,
+                        0xfeff090006000000000000000000000001000000000000000000000000100000 ,
+                        0x0600000001000000feffffff0000000001000000ffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffff52006f006f007400200045006e007400720079000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000016000500ffffffffffffffff01000000223a05358985d111b16a00c0 ,
+                        0xf02836280000000000000000000000002099f34685f6c5010700000000010000 ,
+                        0x0000000003004f006c0065004f0062006a006500630074004400610074006100 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x000000001e000201ffffffff02000000ffffffff000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000200000060000000 ,
+                        0x0000000003004100630063006500730073004f0062006a005300690074006500 ,
+                        0x4400610074006100000000000000000000000000000000000000000000000000 ,
+                        0x0000000026000200ffffffffffffffffffffffff000000000000000000000000 ,
+                        0x000000000000000000000000000000000000000000000000000000005c000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000ffffffffffffffffffffffff000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x00000000fefffffffdfffffffffffffffffffffffffffffffffffffffeffffff ,
+                        0xfeffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffff52006f006f007400200045006e007400720079000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000016000500ffffffffffffffff01000000223a05358985d111b16a00c0 ,
+                        0xf028362800000000000000000000000080b6612985f6c5010500000000010000 ,
+                        0x0000000003004f006c0065004f0062006a006500630074004400610074006100 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x000000001e000201ffffffff02000000ffffffff000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000200000060000000 ,
+                        0x0000000003004100630063006500730073004f0062006a005300690074006500 ,
+                        0x4400610074006100000000000000000000000000000000000000000000000000 ,
+                        0x0000000026000200ffffffffffffffffffffffff000000000000000000000000 ,
+                        0x000000000000000000000000000000000000000000000000000000005c000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000ffffffffffffffffffffffff000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x00000000fffffffffffffffffefffffffdfffffffefffffffeffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffff01000000feffffff03000000feffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffff5c000000000000000100000000000000000000000000000000000000 ,
+                        0x2400000038000000000000000000000000000000000000000000000039333638 ,
+                        0x323635452d383546452d313164312d384245332d303030304638373534444131 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x00000000223a05358985d111b16a00c0f0283628214334120800000004160000 ,
+                        0x3e010000018aab97000006001c000000000000000000c8420000000001efcdab ,
+                        0x00000500b868e00c06000000ffffffffffffffff28e813001fdeecbd01000500 ,
+                        0x28e8130000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000001000000feffffff03000000feffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffff5c000000000000000100000000000000000000000000000000000000 ,
+                        0x2400000038000000000000000000000000000000000000000000000039333638 ,
+                        0x323635452d383546452d313164312d384245332d303030304638373534444131 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x00000000223a05358985d111b16a00c0f0283628214334120800000004160000 ,
+                        0x23010000018aab97000006001c000000000000000000c8420000000001efcdab ,
+                        0x00000500c067e00c06000000ffffffffffffffff28e813001fdeecbd01000500 ,
+                        0x28e8130000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000
+                    End
+                    OLEClass ="ProgCtrl"
+                    Class ="MSComctlLib.ProgCtrl.2"
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    SpecialEffect =0
+                    OverlapFlags =87
+                    TextAlign =2
+                    BackStyle =0
+                    IMESentenceMode =3
+                    Left =570
+                    Top =1035
+                    Width =2271
+                    Height =285
+                    ColumnOrder =0
+                    FontWeight =100
+                    TabIndex =1
+                    ForeColor =16711680
+                    Name ="TxtPatientez"
+                    FontName ="Arial Black"
+                End
+            End
+        End
+    End
+End
+CodeBehindForm
+' See "FrmPatientez.cls"

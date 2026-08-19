@@ -1,0 +1,13 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "DEBITEUR",
+    "Connect": ";DATABASE=rel:TGREF.accdb",
+    "SourceTableName": "DEBITEUR",
+    "Attributes": 1073741824,
+    "PrimaryKey": "[Déb_Code]"
+  }
+}

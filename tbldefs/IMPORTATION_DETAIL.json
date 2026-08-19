@@ -1,0 +1,13 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "IMPORTATION_DETAIL",
+    "Connect": ";DATABASE=rel:TEDIGREF.accdb",
+    "SourceTableName": "IMPORTATION_DETAIL",
+    "Attributes": 1073741824,
+    "PrimaryKey": "[IMPD_Code], [IMPD_CodeEtab]"
+  }
+}

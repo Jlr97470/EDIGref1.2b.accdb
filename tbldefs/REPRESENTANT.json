@@ -1,0 +1,13 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "REPRESENTANT",
+    "Connect": ";DATABASE=rel:TGREF.accdb",
+    "SourceTableName": "REPRESENTANT",
+    "Attributes": 1073741824,
+    "PrimaryKey": "[Rep_Code]"
+  }
+}

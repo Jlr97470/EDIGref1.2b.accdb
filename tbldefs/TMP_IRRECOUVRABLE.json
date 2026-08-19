@@ -1,0 +1,13 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "TMP_IRRECOUVRABLE",
+    "Connect": ";DATABASE=rel:TEDIGREF.accdb",
+    "SourceTableName": "TMP_IRRECOUVRABLE",
+    "Attributes": 1073741824,
+    "PrimaryKey": "[TIrr_Déb_Code]"
+  }
+}

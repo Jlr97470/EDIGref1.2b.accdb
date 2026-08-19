@@ -1,0 +1,13 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "MOTIF_IMPAYE",
+    "Connect": ";DATABASE=rel:TGREF.accdb",
+    "SourceTableName": "MOTIF_IMPAYE",
+    "Attributes": 1073741824,
+    "PrimaryKey": "[MI_Grille], [MI_Code], [MI_Code_Gestion]"
+  }
+}

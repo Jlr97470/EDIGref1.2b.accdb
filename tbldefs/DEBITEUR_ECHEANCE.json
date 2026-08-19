@@ -1,0 +1,13 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "DEBITEUR_ECHEANCE",
+    "Connect": ";DATABASE=rel:TGREF.accdb",
+    "SourceTableName": "DEBITEUR_ECHEANCE",
+    "Attributes": 1073741824,
+    "PrimaryKey": "[De_Code_Débiteur], [De_Date_éch]"
+  }
+}

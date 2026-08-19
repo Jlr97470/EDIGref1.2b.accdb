@@ -1,0 +1,13 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "OPERATEUR",
+    "Connect": ";DATABASE=rel:TGREF.accdb",
+    "SourceTableName": "OPERATEUR",
+    "Attributes": 1073741824,
+    "PrimaryKey": "[Ope_Code]"
+  }
+}

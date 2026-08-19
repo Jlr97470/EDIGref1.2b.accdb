@@ -1,0 +1,335 @@
+﻿Version =20
+VersionRequired =20
+Begin Form
+    RecordSelectors = NotDefault
+    ShortcutMenu = NotDefault
+    AutoCenter = NotDefault
+    NavigationButtons = NotDefault
+    AllowDeletions = NotDefault
+    CloseButton = NotDefault
+    DividingLines = NotDefault
+    AllowAdditions = NotDefault
+    AllowDesignChanges = NotDefault
+    DefaultView =0
+    ScrollBars =0
+    ViewsAllowed =1
+    TabularFamily =0
+    BorderStyle =1
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridY =10
+    Width =5670
+    DatasheetFontHeight =10
+    ItemSuffix =10
+    Left =5430
+    Top =270
+    Right =11460
+    Bottom =4200
+    DatasheetGridlinesColor =12632256
+    RecSrcDt = Begin
+        0xdd84de5c36eae240
+    End
+    RecordSource ="SELECT BASE.* FROM BASE; "
+    Caption ="FrmBase"
+    DatasheetFontName ="Arial"
+    AllowDatasheetView =0
+    Begin
+        Begin Label
+            BackStyle =0
+            BackColor =-2147483633
+            ForeColor =-2147483630
+        End
+        Begin Rectangle
+            SpecialEffect =3
+            BackStyle =0
+            Width =850
+            Height =850
+        End
+        Begin Line
+            Width =1701
+        End
+        Begin Image
+            BackStyle =0
+            OldBorderStyle =0
+            PictureAlignment =2
+            Width =1701
+            Height =1701
+        End
+        Begin CommandButton
+            Width =1701
+            Height =283
+            FontSize =8
+            FontWeight =400
+            FontName ="MS Sans Serif"
+        End
+        Begin OptionButton
+            SpecialEffect =2
+            LabelX =230
+            LabelY =-30
+        End
+        Begin CheckBox
+            SpecialEffect =2
+            LabelX =230
+            LabelY =-30
+        End
+        Begin OptionGroup
+            SpecialEffect =3
+            Width =1701
+            Height =1701
+        End
+        Begin BoundObjectFrame
+            SpecialEffect =2
+            OldBorderStyle =0
+            BackStyle =0
+            Width =4536
+            Height =2835
+            LabelX =-1701
+        End
+        Begin TextBox
+            FELineBreak = NotDefault
+            SpecialEffect =2
+            Width =1701
+            LabelX =-1701
+            BackColor =-2147483643
+            ForeColor =-2147483640
+            AsianLineBreak =255
+        End
+        Begin ListBox
+            SpecialEffect =2
+            Width =1701
+            Height =1417
+            LabelX =-1701
+            BackColor =-2147483643
+            ForeColor =-2147483640
+        End
+        Begin ComboBox
+            SpecialEffect =2
+            Width =1701
+            LabelX =-1701
+            BackColor =-2147483643
+            ForeColor =-2147483640
+        End
+        Begin Subform
+            SpecialEffect =2
+            Width =1701
+            Height =1701
+        End
+        Begin UnboundObjectFrame
+            SpecialEffect =2
+            OldBorderStyle =1
+            Width =4536
+            Height =2835
+        End
+        Begin ToggleButton
+            Width =283
+            Height =283
+            FontSize =8
+            FontWeight =400
+            FontName ="MS Sans Serif"
+        End
+        Begin Tab
+            BackStyle =0
+            Width =5103
+            Height =3402
+        End
+        Begin FormHeader
+            Height =570
+            BackColor =12632256
+            Name ="EntêteFormulaire"
+            Begin
+                Begin CommandButton
+                    DisplayWhen =2
+                    OverlapFlags =85
+                    TextFontFamily =2
+                    Left =240
+                    Top =60
+                    Width =471
+                    Height =471
+                    FontSize =10
+                    FontWeight =700
+                    Name ="CmdFermer"
+                    Caption ="Fermer"
+                    OnClick ="[Event Procedure]"
+                    PictureData = Begin
+                        0x2800000019000000180000000100040000000000800100000000000000000000 ,
+                        0x0000000000000000000000000000800000800000008080008000000080008000 ,
+                        0x8080000080808000c0c0c0000000ff0000ff000000ffff00ff000000ff00ff00 ,
+                        0xffff0000ffffff00888888888888888888888888888888888888888880888888 ,
+                        0x8888888888888888888888880088888888888888888888888888888030888888 ,
+                        0x8888888888888888888888033088888888888888888888888888803330888888 ,
+                        0x8888888888888888888803333088888888888888888888888000333330000000 ,
+                        0x00000888888888888880333330ffff0888888888888888888880333330ffff08 ,
+                        0x88888888888888888880333300ffff0888888888888888888880333330ffff08 ,
+                        0x88888488888888888880333330ffff0888884488888888888880333330ffff08 ,
+                        0x88844488888888888880333330ffff0888444444488888888880333330ffff08 ,
+                        0x84444444488888888880333330ffff0884444444488888888880333330ffff08 ,
+                        0x8844444448888888888033330fffff08888444888888800088803330ffffff08 ,
+                        0x88884488888880ff8880330fffffff0888888488888880ff888030ffffffff08 ,
+                        0x888888888888800088800fffffffff0888888888888888888880000000000008 ,
+                        0x8888888888888888
+                    End
+                    FontName ="System"
+                    ObjectPalette = Begin
+                        0x0003100000000000800000000080000080800000000080008000800000808000 ,
+                        0x80808000c0c0c000ff00000000ff0000ffff00000000ff00ff00ff0000ffff00 ,
+                        0xffffff0000000000
+                    End
+                End
+            End
+        End
+        Begin Section
+            Height =2235
+            BackColor =12632256
+            Name ="Détail"
+            Begin
+                Begin TextBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =1680
+                    Top =450
+                    Width =3870
+                    Height =255
+                    ColumnWidth =2310
+                    Name ="TxtBas_Path"
+                    ControlSource ="Bas_Path"
+                    StatusBarText ="Base Repertoire"
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =60
+                            Top =450
+                            Width =1560
+                            Height =255
+                            Name ="EtiBas_Path_Étiquette"
+                            Caption ="Bas_Path"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =1680
+                    Top =792
+                    Width =3870
+                    Height =255
+                    ColumnWidth =2310
+                    TabIndex =1
+                    Name ="TxtBas_MDB"
+                    ControlSource ="Bas_MDB"
+                    StatusBarText ="Base Fichier Principal Nom"
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =60
+                            Top =792
+                            Width =1560
+                            Height =255
+                            Name ="EtiBas_MDB"
+                            Caption ="Bas_MDB"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =1680
+                    Top =1134
+                    Width =3870
+                    Height =255
+                    ColumnWidth =2310
+                    TabIndex =2
+                    Name ="TxtBas_Archive_MDB"
+                    ControlSource ="Bas_Archive_MDB"
+                    StatusBarText ="Base Fichier Archivage Nom"
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =60
+                            Top =1134
+                            Width =1560
+                            Height =255
+                            Name ="EtiBas_Archive_MDB"
+                            Caption ="Bas_Archive_MDB"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =1683
+                    Top =1476
+                    Width =3876
+                    ColumnWidth =2370
+                    TabIndex =3
+                    Name ="TxtBas_Path_EDI"
+                    ControlSource ="Bas_Path_EDI"
+                    StatusBarText ="Répertoire de l'appli EDI sour la forme  Disque:\\xxx\\"
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =63
+                            Top =1476
+                            Width =1560
+                            Height =240
+                            Name ="EtiBas_Path_EDI"
+                            Caption ="Bas_Path_EDI:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =1689
+                    Top =1791
+                    Width =3861
+                    ColumnWidth =2055
+                    TabIndex =4
+                    Name ="TxtBas_MDB_EDI"
+                    ControlSource ="Bas_MDB_EDI"
+                    StatusBarText ="MDB où l'on place les tables spécifiques à l'application EDI"
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =78
+                            Top =1791
+                            Width =1545
+                            Height =240
+                            Name ="EtiBas_MDB_EDI"
+                            Caption ="Bas_MDB_EDI:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =1680
+                    Top =90
+                    Width =3870
+                    Height =255
+                    TabIndex =5
+                    Name ="TxtBas_Nom"
+                    ControlSource ="Bas_Nom"
+                    StatusBarText ="Base Repertoire"
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =60
+                            Top =90
+                            Width =1560
+                            Height =255
+                            Name ="EtiBas_Nom"
+                            Caption ="Bas_Nom"
+                        End
+                    End
+                End
+            End
+        End
+        Begin FormFooter
+            Height =0
+            BackColor =-2147483633
+            Name ="PiedFormulaire"
+        End
+    End
+End
+CodeBehindForm
+' See "FrmParam_Base.cls"

@@ -1,0 +1,13 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "ENCAISSEMENT_MODE",
+    "Connect": ";DATABASE=rel:TGREF.accdb",
+    "SourceTableName": "ENCAISSEMENT_MODE",
+    "Attributes": 1073741824,
+    "PrimaryKey": "[EMo_Code]"
+  }
+}

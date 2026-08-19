@@ -1,0 +1,13 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "MONNAIE",
+    "Connect": ";DATABASE=rel:TGREF.accdb",
+    "SourceTableName": "MONNAIE",
+    "Attributes": 1073741824,
+    "PrimaryKey": "[Mon_Id]"
+  }
+}

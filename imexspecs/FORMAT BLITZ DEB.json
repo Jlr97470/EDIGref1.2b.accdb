@@ -1,0 +1,86 @@
+﻿{
+  "Info": {
+    "Class": "clsDbImexSpec",
+    "Description": "Import/Export Specification from MSysIMEXSpecs"
+  },
+  "Items": {
+    "DateDelim": "/",
+    "DateFourDigitYear": true,
+    "DateLeadingZeros": false,
+    "DateOrder": 0,
+    "DecimalPoint": ",",
+    "FieldSeparator": ";",
+    "FileType": 850,
+    "SpecName": "FORMAT BLITZ DEB",
+    "SpecType": 1,
+    "StartRow": 0,
+    "TextDelim": "\"",
+    "TimeDelim": ":",
+    "Columns": {
+      "Deb_Cle_Debiteur": {
+        "Attributes": 0,
+        "DataType": 4,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 1,
+        "Width": 5
+      },
+      "Deb_Code_Cli_Interne": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 40,
+        "Width": 1
+      },
+      "Deb_Forme_Juridique": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 42,
+        "Width": 1
+      },
+      "Deb_Nom": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 6,
+        "Width": 17
+      },
+      "Deb_Prenom": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 23,
+        "Width": 16
+      },
+      "Deb_Registre": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 43,
+        "Width": 10
+      },
+      "Deb_Siren": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 41,
+        "Width": 1
+      },
+      "Deb_Statut_Juridique": {
+        "Attributes": 0,
+        "DataType": 4,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 39,
+        "Width": 1
+      }
+    }
+  }
+}

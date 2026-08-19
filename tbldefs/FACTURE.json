@@ -1,0 +1,13 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "FACTURE",
+    "Connect": ";DATABASE=rel:TGREF.accdb",
+    "SourceTableName": "FACTURE",
+    "Attributes": 1073741824,
+    "PrimaryKey": "[Fac_Num]"
+  }
+}

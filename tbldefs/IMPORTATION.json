@@ -1,0 +1,13 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "IMPORTATION",
+    "Connect": ";DATABASE=rel:TEDIGREF.accdb",
+    "SourceTableName": "IMPORTATION",
+    "Attributes": 1073741824,
+    "PrimaryKey": "[IMP_Lot_Date], [IMP_Lot_Num], [IMP_Lot_Site], [IMP_Lot_CodeGREF], [IMP_Lot_Contrat]"
+  }
+}

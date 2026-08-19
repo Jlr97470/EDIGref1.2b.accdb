@@ -1,0 +1,13 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "IMPORTATIONXLS",
+    "Connect": ";DATABASE=rel:TEDIGREF.accdb",
+    "SourceTableName": "IMPORTATIONXLS",
+    "Attributes": 1073741824,
+    "PrimaryKey": "[IMPX_Cli_Code], [IMPX_Fichier]"
+  }
+}

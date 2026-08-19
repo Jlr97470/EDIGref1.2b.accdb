@@ -1,0 +1,38 @@
+﻿{
+  "Info": {
+    "Class": "clsDbImexSpec",
+    "Description": "Import/Export Specification from MSysIMEXSpecs"
+  },
+  "Items": {
+    "DateDelim": "/",
+    "DateFourDigitYear": false,
+    "DateLeadingZeros": false,
+    "DateOrder": 0,
+    "DecimalPoint": ".",
+    "FieldSeparator": ";",
+    "FileType": 850,
+    "SpecName": "FORMAT EXPORTATION IRR",
+    "SpecType": 2,
+    "StartRow": 0,
+    "TextDelim": "",
+    "TimeDelim": ":",
+    "Columns": {
+      "Clé impayé": {
+        "Attributes": 0,
+        "DataType": 4,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 1,
+        "Width": 10
+      },
+      "Motif impayé": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 11,
+        "Width": 50
+      }
+    }
+  }
+}

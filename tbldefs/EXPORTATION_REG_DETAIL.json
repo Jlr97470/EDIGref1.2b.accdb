@@ -1,0 +1,13 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "EXPORTATION_REG_DETAIL",
+    "Connect": ";DATABASE=rel:TEDIGREF.accdb",
+    "SourceTableName": "EXPORTATION_REG_DETAIL",
+    "Attributes": 1073741824,
+    "PrimaryKey": "[ERD_Code], [ERD_CodeDébiteur]"
+  }
+}

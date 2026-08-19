@@ -1,0 +1,158 @@
+﻿{
+  "Info": {
+    "Class": "clsDbImexSpec",
+    "Description": "Import/Export Specification from MSysIMEXSpecs"
+  },
+  "Items": {
+    "DateDelim": "/",
+    "DateFourDigitYear": true,
+    "DateLeadingZeros": false,
+    "DateOrder": 0,
+    "DecimalPoint": ",",
+    "FieldSeparator": ";",
+    "FileType": 1252,
+    "SpecName": "FORMAT XLS",
+    "SpecType": 1,
+    "StartRow": 1,
+    "TextDelim": "",
+    "TimeDelim": ":",
+    "Columns": {
+      "Adresse 1": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 38,
+        "Width": 42
+      },
+      "Adresse 2": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 80,
+        "Width": 10
+      },
+      "Adresse 3": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 90,
+        "Width": 10
+      },
+      "Adresse 4": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 100,
+        "Width": 10
+      },
+      "Banque": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 171,
+        "Width": 7
+      },
+      "Code Postal": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 110,
+        "Width": 12
+      },
+      "Compte Bancaire": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 205,
+        "Width": 16
+      },
+      "Date": {
+        "Attributes": 0,
+        "DataType": 8,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 186,
+        "Width": 11
+      },
+      "Montant": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 197,
+        "Width": 8
+      },
+      "N°": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 178,
+        "Width": 8
+      },
+      "Nom Prénom": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 12,
+        "Width": 26
+      },
+      "Observation": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 221,
+        "Width": 13
+      },
+      "Pays": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 143,
+        "Width": 5
+      },
+      "Ref Client": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 1,
+        "Width": 11
+      },
+      "Téléphone": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 148,
+        "Width": 16
+      },
+      "Type": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 164,
+        "Width": 7
+      },
+      "Ville": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 122,
+        "Width": 21
+      }
+    }
+  }
+}

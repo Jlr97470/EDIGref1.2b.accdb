@@ -1,0 +1,13 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "CLIENT_CONTRAT",
+    "Connect": ";DATABASE=rel:TGREF.accdb",
+    "SourceTableName": "CLIENT_CONTRAT",
+    "Attributes": 1073741824,
+    "PrimaryKey": "[CC_Code_Client], [CC_Date_Contrat]"
+  }
+}

@@ -1,0 +1,126 @@
+﻿{
+  "Info": {
+    "Class": "clsDbImexSpec",
+    "Description": "Import/Export Specification from MSysIMEXSpecs"
+  },
+  "Items": {
+    "DateDelim": "/",
+    "DateFourDigitYear": true,
+    "DateLeadingZeros": false,
+    "DateOrder": 0,
+    "DecimalPoint": ".",
+    "FieldSeparator": ";",
+    "FileType": 1252,
+    "SpecName": "FORMAT XLS DEBITEUR",
+    "SpecType": 1,
+    "StartRow": 1,
+    "TextDelim": "",
+    "TimeDelim": ":",
+    "Columns": {
+      "Adresse 1": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 38,
+        "Width": 33
+      },
+      "Adresse 2": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 71,
+        "Width": 16
+      },
+      "Adresse 3": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 87,
+        "Width": 22
+      },
+      "Adresse 4": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 109,
+        "Width": 10
+      },
+      "Code Postal": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 119,
+        "Width": 12
+      },
+      "Email": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 187,
+        "Width": 6
+      },
+      "Fax": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 183,
+        "Width": 4
+      },
+      "Nom Prénom": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 12,
+        "Width": 26
+      },
+      "Pays": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 154,
+        "Width": 5
+      },
+      "Ref Gref": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 1,
+        "Width": 11
+      },
+      "Téléphone 1": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 159,
+        "Width": 12
+      },
+      "Téléphone 2": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 171,
+        "Width": 12
+      },
+      "Ville": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 131,
+        "Width": 23
+      }
+    }
+  }
+}

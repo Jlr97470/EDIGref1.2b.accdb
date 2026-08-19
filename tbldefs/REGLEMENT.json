@@ -1,0 +1,13 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "REGLEMENT",
+    "Connect": ";DATABASE=rel:TGREF.accdb",
+    "SourceTableName": "REGLEMENT",
+    "Attributes": 1073741824,
+    "PrimaryKey": "[Reg_Date], [Reg_Cli_Code]"
+  }
+}

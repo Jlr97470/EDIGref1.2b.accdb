@@ -1,0 +1,13 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "EXPORTATION_IRR",
+    "Connect": ";DATABASE=rel:TEDIGREF.accdb",
+    "SourceTableName": "EXPORTATION_IRR",
+    "Attributes": 1073741824,
+    "PrimaryKey": "[EXPI_Lot_Date], [EXPI_Lot_Num], [EXPI_Lot_Site], [EXPI_Lot_CodeGREF], [EXPI_Lot_Contrat]"
+  }
+}

@@ -1,0 +1,5 @@
+﻿CREATE TABLE [TABLE] (
+  [TblNom] VARCHAR (50) CONSTRAINT [PrimaryKey] PRIMARY KEY UNIQUE NOT NULL,
+  [TblNumero] LONG,
+  [TblCommentaire] VARCHAR (255)
+)

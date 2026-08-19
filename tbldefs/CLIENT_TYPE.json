@@ -1,0 +1,13 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "CLIENT_TYPE",
+    "Connect": ";DATABASE=rel:TGREF.accdb",
+    "SourceTableName": "CLIENT_TYPE",
+    "Attributes": 1073741824,
+    "PrimaryKey": "[CT_Nom]"
+  }
+}
