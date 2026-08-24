@@ -8,6 +8,32 @@
     "Connect": ";DATABASE=rel:TEDIGREF.accdb",
     "SourceTableName": "EXPORTATION_REG",
     "Attributes": 1073741824,
-    "PrimaryKey": "[EXPR_Lot_Date], [EXPR_Lot_Num], [EXPR_Lot_Site], [EXPR_Lot_CodeGREF], [EXPR_Lot_Contrat]"
+    "PrimaryKey": "[EXPR_Lot_Date], [EXPR_Lot_Num], [EXPR_Lot_Site], [EXPR_Lot_CodeGREF], [EXPR_Lot_Contrat]",
+    "FieldProperties": {
+      "EXPR_Date_Début": {
+        "ColumnWidth": {
+          "Type": 3,
+          "Value": 1815
+        }
+      },
+      "EXPR_Date_Fin": {
+        "ColumnWidth": {
+          "Type": 3,
+          "Value": 1575
+        }
+      },
+      "EXPR_Montant_m1": {
+        "ColumnWidth": {
+          "Type": 3,
+          "Value": 1875
+        }
+      },
+      "EXPR_Montant_m2": {
+        "ColumnWidth": {
+          "Type": 3,
+          "Value": 1875
+        }
+      }
+    }
   }
 }

@@ -8,6 +8,20 @@
     "Connect": ";DATABASE=rel:TGREF.accdb",
     "SourceTableName": "ENCAISSEMENT",
     "Attributes": 1073741824,
-    "PrimaryKey": "[Enc_ID]"
+    "PrimaryKey": "[Enc_ID]",
+    "FieldProperties": {
+      "Enc_ERD_Id": {
+        "DecimalPlaces": {
+          "Type": 2,
+          "Value": 255
+        }
+      }
+    },
+    "TableProperties": {
+      "OrderByOn": {
+        "Type": 1,
+        "Value": true
+      }
+    }
   }
 }

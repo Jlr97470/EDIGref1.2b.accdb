@@ -9,7 +9,7 @@ WHERE
     (
       (
         ADRESSE_DEBITEUR.AD_TypeAdresse_ID
-      )= DLookUp(
+      ) = DLookUp(
         "Adresse_Courrier", "PARAMETRE_GREF"
       )
     )

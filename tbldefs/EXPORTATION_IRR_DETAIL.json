@@ -8,6 +8,20 @@
     "Connect": ";DATABASE=rel:TEDIGREF.accdb",
     "SourceTableName": "EXPORTATION_IRR_DETAIL",
     "Attributes": 1073741824,
-    "PrimaryKey": "[EID_Code], [EID_CodeDébiteur]"
+    "PrimaryKey": "[EID_Code], [EID_CodeDébiteur]",
+    "FieldProperties": {
+      "EID_Situation": {
+        "ColumnWidth": {
+          "Type": 3,
+          "Value": 1365
+        }
+      },
+      "EID_Situation_Client": {
+        "ColumnWidth": {
+          "Type": 3,
+          "Value": 2820
+        }
+      }
+    }
   }
 }

@@ -6,9 +6,18 @@
   "Items": {
     "Databases": {
       "SummaryInfo": {
-        "Author": "TSO",
-        "Company": "T.S.O.",
-        "Title": "NewGref97"
+        "Author": {
+          "Type": 10,
+          "Value": "TSO"
+        },
+        "Company": {
+          "Type": 10,
+          "Value": "T.S.O."
+        },
+        "Title": {
+          "Type": 10,
+          "Value": "NewGref97"
+        }
       }
     }
   }

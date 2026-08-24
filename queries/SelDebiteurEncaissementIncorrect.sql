@@ -38,7 +38,7 @@ FROM
 WHERE
   (
     (
-      (DEBITEUR.Déb_Situation)= "99"
+      (DEBITEUR.Déb_Situation) = "99"
     )
     AND (
       (
@@ -56,7 +56,7 @@ WHERE
           WHERE
             Enc_Code_Débiteur = Déb_Code;
         )
-      )< Round([Déb_Mont_Prin_m1], 2)
+      ) < Round([Déb_Mont_Prin_m1], 2)
     )
     AND (
       (
@@ -74,6 +74,6 @@ WHERE
           WHERE
             Enc_Code_Débiteur = Déb_Code;
         )
-      )< Round([Déb_Mont_Prin_m2], 2)
+      ) < Round([Déb_Mont_Prin_m2], 2)
     )
   );

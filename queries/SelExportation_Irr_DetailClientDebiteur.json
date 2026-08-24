@@ -1,0 +1,65 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "SelExportation_Irr_DetailClientDebiteur"
+  },
+  "Items": {
+    "QueryType": 0,
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 47,
+        "top": 69,
+        "right": 1002,
+        "bottom": 389
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 948,
+        "bottom": 144
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 539,
+      "Tables": [
+        {
+          "Name": "EXPORTATION_IRR",
+          "Alias": "",
+          "Left": 440,
+          "Top": 6,
+          "Right": 536,
+          "Bottom": 120,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "CLIENT",
+          "Alias": "",
+          "Left": 172,
+          "Top": 6,
+          "Right": 268,
+          "Bottom": 120,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "DEBITEUR",
+          "Alias": "",
+          "Left": 306,
+          "Top": 6,
+          "Right": 402,
+          "Bottom": 120,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "EXPORTATION_IRR_DETAIL",
+          "Alias": "",
+          "Left": 38,
+          "Top": 6,
+          "Right": 134,
+          "Bottom": 120,
+          "ScrollTop": 0
+        }
+      ]
+    }
+  }
+}

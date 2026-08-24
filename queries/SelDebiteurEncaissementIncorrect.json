@@ -1,0 +1,60 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "SelDebiteurEncaissementIncorrect"
+  },
+  "Items": {
+    "QueryType": 0,
+    "Columns": {
+      "Déb_Enc_Prin_m1": {
+        "ColumnWidth": 1800,
+        "AggregateType": -1
+      },
+      "Déb_Enc_Prin_m2": {
+        "ColumnWidth": 1800,
+        "AggregateType": -1
+      },
+      "DEBITEUR.Déb_Code": {
+        "ColumnWidth": 1230,
+        "AggregateType": -1
+      },
+      "DEBITEUR.Déb_Mont_Prin_m1": {
+        "ColumnWidth": 1890,
+        "AggregateType": -1
+      },
+      "DEBITEUR.Déb_Mont_Prin_m2": {
+        "ColumnWidth": 1890,
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": -29,
+        "top": 112,
+        "right": 889,
+        "bottom": 516
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 911,
+        "bottom": 228
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 539,
+      "Tables": [
+        {
+          "Name": "DEBITEUR",
+          "Alias": "",
+          "Left": 38,
+          "Top": 6,
+          "Right": 202,
+          "Bottom": 195,
+          "ScrollTop": 6
+        }
+      ]
+    }
+  }
+}

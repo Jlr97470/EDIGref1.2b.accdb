@@ -1,0 +1,56 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "SelEncaissementTypeMode"
+  },
+  "Items": {
+    "QueryType": 0,
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 76,
+        "top": 98,
+        "right": 1002,
+        "bottom": 418
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 919,
+        "bottom": 144
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 539,
+      "Tables": [
+        {
+          "Name": "ENCAISSEMENT_MODE",
+          "Alias": "",
+          "Left": 454,
+          "Top": 7,
+          "Right": 606,
+          "Bottom": 91,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "ENCAISSEMENT_TYPE",
+          "Alias": "",
+          "Left": 306,
+          "Top": 6,
+          "Right": 402,
+          "Bottom": 105,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "ENCAISSEMENT",
+          "Alias": "",
+          "Left": 38,
+          "Top": 6,
+          "Right": 134,
+          "Bottom": 120,
+          "ScrollTop": 0
+        }
+      ]
+    }
+  }
+}

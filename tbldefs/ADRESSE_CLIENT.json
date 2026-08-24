@@ -8,6 +8,26 @@
     "Connect": ";DATABASE=rel:TGREF.accdb",
     "SourceTableName": "ADRESSE_CLIENT",
     "Attributes": 1073741824,
-    "PrimaryKey": "[AC_Code_Client], [AC_TypeAdresse_ID]"
+    "PrimaryKey": "[AC_Code_Client], [AC_TypeAdresse_ID]",
+    "FieldProperties": {
+      "AC_Adr1": {
+        "ColumnWidth": {
+          "Type": 3,
+          "Value": 1545
+        }
+      },
+      "AC_Adr2": {
+        "ColumnWidth": {
+          "Type": 3,
+          "Value": 960
+        }
+      },
+      "AC_Ville": {
+        "ColumnWidth": {
+          "Type": 3,
+          "Value": 2130
+        }
+      }
+    }
   }
 }

@@ -8,6 +8,26 @@
     "Connect": ";DATABASE=rel:TEDIGREF.accdb",
     "SourceTableName": "IMPORTATION",
     "Attributes": 1073741824,
-    "PrimaryKey": "[IMP_Lot_Date], [IMP_Lot_Num], [IMP_Lot_Site], [IMP_Lot_CodeGREF], [IMP_Lot_Contrat]"
+    "PrimaryKey": "[IMP_Lot_Date], [IMP_Lot_Num], [IMP_Lot_Site], [IMP_Lot_CodeGREF], [IMP_Lot_Contrat]",
+    "FieldProperties": {
+      "IMP_Nb_Créances": {
+        "ColumnWidth": {
+          "Type": 3,
+          "Value": 1800
+        }
+      },
+      "IMP_Montant_m1": {
+        "ColumnWidth": {
+          "Type": 3,
+          "Value": 1710
+        }
+      },
+      "IMP_Montant_m2": {
+        "ColumnWidth": {
+          "Type": 3,
+          "Value": 1710
+        }
+      }
+    }
   }
 }

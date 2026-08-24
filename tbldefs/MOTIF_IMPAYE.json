@@ -8,6 +8,32 @@
     "Connect": ";DATABASE=rel:TGREF.accdb",
     "SourceTableName": "MOTIF_IMPAYE",
     "Attributes": 1073741824,
-    "PrimaryKey": "[MI_Grille], [MI_Code], [MI_Code_Gestion]"
+    "PrimaryKey": "[MI_Grille], [MI_Code], [MI_Code_Gestion]",
+    "FieldProperties": {
+      "MI_Grille": {
+        "ColumnWidth": {
+          "Type": 3,
+          "Value": 945
+        }
+      },
+      "MI_Code": {
+        "ColumnWidth": {
+          "Type": 3,
+          "Value": 945
+        }
+      },
+      "MI_Code_Gestion": {
+        "ColumnWidth": {
+          "Type": 3,
+          "Value": 1725
+        }
+      },
+      "MI_Libellé": {
+        "ColumnWidth": {
+          "Type": 3,
+          "Value": 4485
+        }
+      }
+    }
   }
 }

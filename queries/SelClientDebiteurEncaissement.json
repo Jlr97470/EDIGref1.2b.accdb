@@ -1,0 +1,56 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "SelClientDebiteurEncaissement"
+  },
+  "Items": {
+    "QueryType": 0,
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 76,
+        "top": 98,
+        "right": 982,
+        "bottom": 418
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 899,
+        "bottom": 144
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 539,
+      "Tables": [
+        {
+          "Name": "CLIENT",
+          "Alias": "",
+          "Left": 38,
+          "Top": 6,
+          "Right": 134,
+          "Bottom": 120,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "DEBITEUR",
+          "Alias": "",
+          "Left": 172,
+          "Top": 6,
+          "Right": 268,
+          "Bottom": 120,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "ENCAISSEMENT",
+          "Alias": "",
+          "Left": 306,
+          "Top": 6,
+          "Right": 402,
+          "Bottom": 120,
+          "ScrollTop": 0
+        }
+      ]
+    }
+  }
+}
